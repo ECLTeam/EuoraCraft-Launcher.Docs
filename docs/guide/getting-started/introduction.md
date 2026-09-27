@@ -8,7 +8,7 @@ permalink: /guide/introduction/
 
 本项目的目标是为 Minecraft 玩家提供一个**轻量、易用、可扩展**的启动器，支持多账户、多实例、多模组组合，并提供联机房间功能。
 
-[进入 **EuoraCraft Launcher 官网** 探索](https://v2.vuepress.vuejs.org/zh/){.read-more}
+[进入 **EuoraCraft Launcher 官网** 探索](https://www.eclteam.top/){.read-more}
 
 ::: details 点开看看？
 在某个夜晚......,点开了？，还没想好啊，喂(#`O′)
@@ -17,7 +17,7 @@ permalink: /guide/introduction/
 
 ## 你可以用 ECL 做什么？
 
-本启动器以==插件==作为主要功能，旨在提高用户的使用体验，在拓展之外，启动器原生支持一下功能：
+本启动器以==插件==作为主要功能，旨在提高用户的使用体验，在拓展之外，启动器原生支持以下功能：
 
 :::: steps
 1. 多账户管理
@@ -44,7 +44,7 @@ permalink: /guide/introduction/
 
 ## 开始使用
 
-在使用 ==EuoraCraft Launcher== 之前，您需要确认您的系统是否**支持**。
+在使用 ==EuoraCraft Launcher== 之前，您需要阅读[用户协议](/guide/user-agreement/)同意并确认您的系统是否**支持**。
 
 当前**ECL**仅支持以下的系统和版本：
 
