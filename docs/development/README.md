@@ -23,8 +23,8 @@ createTime: 2026/08/12 21:30:00
 以下为 EuoraCraft Launcher 相关的主要仓库：!!“欢迎各位贡献者前来贡献！”!!
 
 <RepoCard repo="ECLteam/EuoraCraft-Launcher" />
-<RepoCard repo="ECLteam/EuoraCraftLauncher-UI" />
-<RepoCard repo="ECLteam/ECLauncherCore" />
+<RepoCard repo="ECLteam/EuoraCraft-Launcher.Frontend" />
+<RepoCard repo="ECLteam/EuoraCraft-Launcher.Core" />
 <RepoCard repo="ECLteam/Florolding" />
 
 ## 导航

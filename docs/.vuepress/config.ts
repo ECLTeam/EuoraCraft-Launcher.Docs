@@ -60,7 +60,7 @@ export default defineUserConfig({
     hostname: 'https://docs.eclteam.top',
 
     /* 文档仓库配置，用�?editLink */
-    docsRepo: 'https://github.com/ECLteam/ECLteam.github.io',
+    docsRepo: 'https://github.com/EuoraCraft-Launcher.Docs',
     docsDir: 'docs',
     docsBranch: 'main',
 
@@ -124,7 +124,7 @@ export default defineUserConfig({
      */
     markdown: {
     //   abbr: true,         // 启用 abbr 语法  *[label]: content
-    //   annotation: true,   // 启用 annotation 语法  [+label]: content
+       annotation: true,   // 启用 annotation 语法  [+label]: content
     //   pdf: true,          // 启用 PDF 嵌入 @[pdf](/xxx.pdf)
     //   caniuse: true,      // 启用 caniuse 语法  @[caniuse](feature_name)
        plot: true,         // 启用隐秘文本语法 !!xxxx!!
@@ -180,10 +180,10 @@ export default defineUserConfig({
      comment: {
        provider: 'Giscus', // "Artalk" | "Giscus" | "Twikoo" | "Waline"
        comment: true,
-       repo: 'ECLteam/EuoraCraft-Launcher',
-       repoId: 'R_kgDOQSIXkw',
+       repo: 'ECLTeam/EuoraCraft-Launcher.Docs',
+       repoId: 'R_kgDOQy05DQ',
        category: 'General',
-       categoryId: 'DIC_kwDOQSIXk84DDYaY',
+       categoryId: 'DIC_kwDOQy05Dc4DGfVC',
        mapping: 'pathname',
        reactionsEnabled: true,
        inputPosition: 'top',
