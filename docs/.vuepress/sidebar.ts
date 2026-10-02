@@ -44,6 +44,17 @@ const sidebar: ThemeSidebarMulti = {
         { text: '构建启动指令', link: '/tutorials/minecraft-launcher/fundamentals/launch-command/', icon: 'material-symbols:terminal' },
       ],
     },
+    {
+      text: 'EasyTier-PyO3 教程',
+      icon: 'material-symbols:hub-outline',
+      collapsed: false,
+      items: [
+        { text: '介绍', link: '/tutorials/easytier-pyo3/', icon: 'material-symbols:info-outline' },
+        { text: '节点配置详解', link: '/tutorials/easytier-pyo3/fundamentals/configuration/', icon: 'material-symbols:tune' },
+        { text: '生命周期与运行期管理', link: '/tutorials/easytier-pyo3/fundamentals/node-runtime/', icon: 'material-symbols:play-circle-outline' },
+        { text: '组网进阶与部署实践', link: '/tutorials/easytier-pyo3/advanced/deployment/', icon: 'material-symbols:rocket-launch-outline' },
+      ],
+    },
   ],
 }
 

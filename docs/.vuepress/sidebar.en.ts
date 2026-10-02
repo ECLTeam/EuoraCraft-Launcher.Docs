@@ -43,6 +43,17 @@ const sidebar: ThemeSidebarMulti = {
         { text: 'Build the Launch Command', link: '/en/tutorials/minecraft-launcher/fundamentals/launch-command/', icon: 'material-symbols:terminal' },
       ],
     },
+    {
+      text: 'EasyTier-PyO3 Tutorial',
+      icon: 'material-symbols:hub-outline',
+      collapsed: false,
+      items: [
+        { text: 'Introduction', link: '/en/tutorials/easytier-pyo3/', icon: 'material-symbols:info-outline' },
+        { text: 'Node Configuration', link: '/en/tutorials/easytier-pyo3/fundamentals/configuration/', icon: 'material-symbols:tune' },
+        { text: 'Lifecycle and Runtime', link: '/en/tutorials/easytier-pyo3/fundamentals/node-runtime/', icon: 'material-symbols:play-circle-outline' },
+        { text: 'Advanced Networking and Deployment', link: '/en/tutorials/easytier-pyo3/advanced/deployment/', icon: 'material-symbols:rocket-launch-outline' },
+      ],
+    },
   ],
 }
 
