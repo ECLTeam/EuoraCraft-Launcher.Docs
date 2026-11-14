@@ -7,7 +7,7 @@ settings:
 overrides:
   dompurify: ^3.4.17
   lodash-es: ^4.18.1
-  katex: ^0.18.2
+  katex: ^0.19.0
 
 importers:
 
@@ -441,7 +441,7 @@ packages:
     resolution: {integrity: sha512-infYH1nOHs+5R987rvrdLqUUCXuyq/d/McI0I3KCwslbY3SLTAkXVlolw8t2UbqbrVpzYHZUP5layTFRp6eiqA==}
     engines: {node: '>=22'}
     peerDependencies:
-      katex: ^0.18.2
+      katex: ^0.19.0
       markdown-it: ^15.0.0
     peerDependenciesMeta:
       katex:
@@ -1502,7 +1502,7 @@ packages:
     resolution: {integrity: sha512-qpo/GpKhHPlPzlPHKHvd3w+583/7B1uaH+Z2db4DUoKGFa+WpN5rSJS+9znEczT/GeEie+QjlP/SIsbJGUU3ow==}
     peerDependencies:
       '@mathjax/src': ^4.1.1
-      katex: ^0.18.2
+      katex: ^0.19.0
       vuepress: 2.0.0-rc.31
     peerDependenciesMeta:
       '@mathjax/src':
@@ -2344,8 +2344,8 @@ packages:
   jsonfile@6.2.1:
     resolution: {integrity: sha512-zwOTdL3rFQ/lRdBnntKVOX6k5cKJwEc1HdilT71BWEu7J41gXIB2MRp+vxduPSwZJPWBxEzv4yH1wYLJGUHX4Q==}
 
-  katex@0.18.7:
-    resolution: {integrity: sha512-h+UCwkZ+4Jz8WQ7MLGfj7UVFrRCizGb912fwF4luGdYsC5paYG1vx+jy+KRcC/XkpjGva/P7nAWuxNnPzRvzHw==}
+  katex@0.19.1:
+    resolution: {integrity: sha512-jG8uKntjSEcm2EpQOh0XturpPuuC9r3Sq5HLHdsFdWZT27E672SF19QEi+of0/YeOy15lDgRhKvr5614uRrEfA==}
     hasBin: true
 
   khroma@2.1.0:
@@ -3710,12 +3710,12 @@ snapshots:
     optionalDependencies:
       markdown-it: 14.3.2
 
-  '@mdit/plugin-katex-slim@1.1.1(katex@0.18.7)(markdown-it@14.3.2)':
+  '@mdit/plugin-katex-slim@1.1.1(katex@0.19.1)(markdown-it@14.3.2)':
     dependencies:
       '@mdit/helper': 1.1.1(markdown-it@14.3.2)
       '@mdit/plugin-tex': 1.1.1(markdown-it@14.3.2)
     optionalDependencies:
-      katex: 0.18.7
+      katex: 0.19.1
       markdown-it: 14.3.2
 
   '@mdit/plugin-mark@2.1.1(markdown-it@14.3.2)':
@@ -4949,16 +4949,16 @@ snapshots:
       - markdown-it
       - typescript
 
-  '@vuepress/plugin-markdown-math@2.0.0-rc.134(@vuepress/bundler-vite@2.0.0-rc.31(@types/node@26.6.2)(@vue/compiler-sfc@3.5.43)(esbuild@0.28.1)(rollup@4.62.3)(typescript@5.9.3)(yaml@2.9.0))(katex@0.18.7)(markdown-it@14.3.2)(typescript@5.9.3)(vuepress@2.0.0-rc.31(@vue/compiler-sfc@3.5.43)(@vuepress/bundler-vite@2.0.0-rc.31(@types/node@26.6.2)(@vue/compiler-sfc@3.5.43)(esbuild@0.28.1)(rollup@4.62.3)(typescript@5.9.3)(yaml@2.9.0))(esbuild@0.28.1)(rolldown@1.2.9)(rollup@4.62.3)(typescript@5.9.3)(vite@8.3.0(@types/node@26.6.2)(esbuild@0.28.1)(yaml@2.9.0))(vue@3.5.40(typescript@5.9.3)))':
+  '@vuepress/plugin-markdown-math@2.0.0-rc.134(@vuepress/bundler-vite@2.0.0-rc.31(@types/node@26.6.2)(@vue/compiler-sfc@3.5.43)(esbuild@0.28.1)(rollup@4.62.3)(typescript@5.9.3)(yaml@2.9.0))(katex@0.19.1)(markdown-it@14.3.2)(typescript@5.9.3)(vuepress@2.0.0-rc.31(@vue/compiler-sfc@3.5.43)(@vuepress/bundler-vite@2.0.0-rc.31(@types/node@26.6.2)(@vue/compiler-sfc@3.5.43)(esbuild@0.28.1)(rollup@4.62.3)(typescript@5.9.3)(yaml@2.9.0))(esbuild@0.28.1)(rolldown@1.2.9)(rollup@4.62.3)(typescript@5.9.3)(vite@8.3.0(@types/node@26.6.2)(esbuild@0.28.1)(yaml@2.9.0))(vue@3.5.40(typescript@5.9.3)))':
     dependencies:
-      '@mdit/plugin-katex-slim': 1.1.1(katex@0.18.7)(markdown-it@14.3.2)
+      '@mdit/plugin-katex-slim': 1.1.1(katex@0.19.1)(markdown-it@14.3.2)
       '@mdit/plugin-mathjax-slim': 1.2.1(markdown-it@14.3.2)
       '@types/markdown-it': 14.2.0
       '@vuepress/helper': 2.0.0-rc.134(@vuepress/bundler-vite@2.0.0-rc.31(@types/node@26.6.2)(@vue/compiler-sfc@3.5.43)(esbuild@0.28.1)(rollup@4.62.3)(typescript@5.9.3)(yaml@2.9.0))(typescript@5.9.3)(vuepress@2.0.0-rc.31(@vue/compiler-sfc@3.5.43)(@vuepress/bundler-vite@2.0.0-rc.31(@types/node@26.6.2)(@vue/compiler-sfc@3.5.43)(esbuild@0.28.1)(rollup@4.62.3)(typescript@5.9.3)(yaml@2.9.0))(esbuild@0.28.1)(rolldown@1.2.9)(rollup@4.62.3)(typescript@5.9.3)(vite@8.3.0(@types/node@26.6.2)(esbuild@0.28.1)(yaml@2.9.0))(vue@3.5.40(typescript@5.9.3)))
       vue: 3.5.43(typescript@5.9.3)
       vuepress: 2.0.0-rc.31(@vue/compiler-sfc@3.5.43)(@vuepress/bundler-vite@2.0.0-rc.31(@types/node@26.6.2)(@vue/compiler-sfc@3.5.43)(esbuild@0.28.1)(rollup@4.62.3)(typescript@5.9.3)(yaml@2.9.0))(esbuild@0.28.1)(rolldown@1.2.9)(rollup@4.62.3)(typescript@5.9.3)(vite@8.3.0(@types/node@26.6.2)(esbuild@0.28.1)(yaml@2.9.0))(vue@3.5.40(typescript@5.9.3))
     optionalDependencies:
-      katex: 0.18.7
+      katex: 0.19.1
     transitivePeerDependencies:
       - '@mathjax/mathjax-newcm-font'
       - '@vuepress/bundler-vite'
@@ -5891,7 +5891,7 @@ snapshots:
     optionalDependencies:
       graceful-fs: 4.2.11
 
-  katex@0.18.7:
+  katex@0.19.1:
     dependencies:
       commander: 15.0.0
 
@@ -6178,7 +6178,7 @@ snapshots:
       dompurify: 3.4.18
       elkjs: 0.12.1
       es-toolkit: 1.52.0
-      katex: 0.18.7
+      katex: 0.19.1
       khroma: 2.1.0
       marked: 16.4.2
       roughjs: 4.6.6
@@ -7095,7 +7095,7 @@ snapshots:
       '@vuepress/plugin-markdown-hint': 2.0.0-rc.134(@vuepress/bundler-vite@2.0.0-rc.31(@types/node@26.6.2)(@vue/compiler-sfc@3.5.43)(esbuild@0.28.1)(rollup@4.62.3)(typescript@5.9.3)(yaml@2.9.0))(markdown-it@14.3.2)(typescript@5.9.3)(vue@3.5.43(typescript@5.9.3))(vuepress@2.0.0-rc.31(@vue/compiler-sfc@3.5.43)(@vuepress/bundler-vite@2.0.0-rc.31(@types/node@26.6.2)(@vue/compiler-sfc@3.5.43)(esbuild@0.28.1)(rollup@4.62.3)(typescript@5.9.3)(yaml@2.9.0))(esbuild@0.28.1)(rolldown@1.2.9)(rollup@4.62.3)(typescript@5.9.3)(vite@8.3.0(@types/node@26.6.2)(esbuild@0.28.1)(yaml@2.9.0))(vue@3.5.40(typescript@5.9.3)))
       '@vuepress/plugin-markdown-image': 2.0.0-rc.134(@vuepress/bundler-vite@2.0.0-rc.31(@types/node@26.6.2)(@vue/compiler-sfc@3.5.43)(esbuild@0.28.1)(rollup@4.62.3)(typescript@5.9.3)(yaml@2.9.0))(markdown-it@14.3.2)(typescript@5.9.3)(vuepress@2.0.0-rc.31(@vue/compiler-sfc@3.5.43)(@vuepress/bundler-vite@2.0.0-rc.31(@types/node@26.6.2)(@vue/compiler-sfc@3.5.43)(esbuild@0.28.1)(rollup@4.62.3)(typescript@5.9.3)(yaml@2.9.0))(esbuild@0.28.1)(rolldown@1.2.9)(rollup@4.62.3)(typescript@5.9.3)(vite@8.3.0(@types/node@26.6.2)(esbuild@0.28.1)(yaml@2.9.0))(vue@3.5.40(typescript@5.9.3)))
       '@vuepress/plugin-markdown-include': 2.0.0-rc.134(@vuepress/bundler-vite@2.0.0-rc.31(@types/node@26.6.2)(@vue/compiler-sfc@3.5.43)(esbuild@0.28.1)(rollup@4.62.3)(typescript@5.9.3)(yaml@2.9.0))(markdown-it@14.3.2)(typescript@5.9.3)(vuepress@2.0.0-rc.31(@vue/compiler-sfc@3.5.43)(@vuepress/bundler-vite@2.0.0-rc.31(@types/node@26.6.2)(@vue/compiler-sfc@3.5.43)(esbuild@0.28.1)(rollup@4.62.3)(typescript@5.9.3)(yaml@2.9.0))(esbuild@0.28.1)(rolldown@1.2.9)(rollup@4.62.3)(typescript@5.9.3)(vite@8.3.0(@types/node@26.6.2)(esbuild@0.28.1)(yaml@2.9.0))(vue@3.5.40(typescript@5.9.3)))
-      '@vuepress/plugin-markdown-math': 2.0.0-rc.134(@vuepress/bundler-vite@2.0.0-rc.31(@types/node@26.6.2)(@vue/compiler-sfc@3.5.43)(esbuild@0.28.1)(rollup@4.62.3)(typescript@5.9.3)(yaml@2.9.0))(katex@0.18.7)(markdown-it@14.3.2)(typescript@5.9.3)(vuepress@2.0.0-rc.31(@vue/compiler-sfc@3.5.43)(@vuepress/bundler-vite@2.0.0-rc.31(@types/node@26.6.2)(@vue/compiler-sfc@3.5.43)(esbuild@0.28.1)(rollup@4.62.3)(typescript@5.9.3)(yaml@2.9.0))(esbuild@0.28.1)(rolldown@1.2.9)(rollup@4.62.3)(typescript@5.9.3)(vite@8.3.0(@types/node@26.6.2)(esbuild@0.28.1)(yaml@2.9.0))(vue@3.5.40(typescript@5.9.3)))
+      '@vuepress/plugin-markdown-math': 2.0.0-rc.134(@vuepress/bundler-vite@2.0.0-rc.31(@types/node@26.6.2)(@vue/compiler-sfc@3.5.43)(esbuild@0.28.1)(rollup@4.62.3)(typescript@5.9.3)(yaml@2.9.0))(katex@0.19.1)(markdown-it@14.3.2)(typescript@5.9.3)(vuepress@2.0.0-rc.31(@vue/compiler-sfc@3.5.43)(@vuepress/bundler-vite@2.0.0-rc.31(@types/node@26.6.2)(@vue/compiler-sfc@3.5.43)(esbuild@0.28.1)(rollup@4.62.3)(typescript@5.9.3)(yaml@2.9.0))(esbuild@0.28.1)(rolldown@1.2.9)(rollup@4.62.3)(typescript@5.9.3)(vite@8.3.0(@types/node@26.6.2)(esbuild@0.28.1)(yaml@2.9.0))(vue@3.5.40(typescript@5.9.3)))
       '@vuepress/plugin-nprogress': 2.0.0-rc.134(@vuepress/bundler-vite@2.0.0-rc.31(@types/node@26.6.2)(@vue/compiler-sfc@3.5.43)(esbuild@0.28.1)(rollup@4.62.3)(typescript@5.9.3)(yaml@2.9.0))(typescript@5.9.3)(vuepress@2.0.0-rc.31(@vue/compiler-sfc@3.5.43)(@vuepress/bundler-vite@2.0.0-rc.31(@types/node@26.6.2)(@vue/compiler-sfc@3.5.43)(esbuild@0.28.1)(rollup@4.62.3)(typescript@5.9.3)(yaml@2.9.0))(esbuild@0.28.1)(rolldown@1.2.9)(rollup@4.62.3)(typescript@5.9.3)(vite@8.3.0(@types/node@26.6.2)(esbuild@0.28.1)(yaml@2.9.0))(vue@3.5.40(typescript@5.9.3)))
       '@vuepress/plugin-photo-swipe': 2.0.0-rc.134(@vuepress/bundler-vite@2.0.0-rc.31(@types/node@26.6.2)(@vue/compiler-sfc@3.5.43)(esbuild@0.28.1)(rollup@4.62.3)(typescript@5.9.3)(yaml@2.9.0))(typescript@5.9.3)(vuepress@2.0.0-rc.31(@vue/compiler-sfc@3.5.43)(@vuepress/bundler-vite@2.0.0-rc.31(@types/node@26.6.2)(@vue/compiler-sfc@3.5.43)(esbuild@0.28.1)(rollup@4.62.3)(typescript@5.9.3)(yaml@2.9.0))(esbuild@0.28.1)(rolldown@1.2.9)(rollup@4.62.3)(typescript@5.9.3)(vite@8.3.0(@types/node@26.6.2)(esbuild@0.28.1)(yaml@2.9.0))(vue@3.5.40(typescript@5.9.3)))
       '@vuepress/plugin-reading-time': 2.0.0-rc.134(@vuepress/bundler-vite@2.0.0-rc.31(@types/node@26.6.2)(@vue/compiler-sfc@3.5.43)(esbuild@0.28.1)(rollup@4.62.3)(typescript@5.9.3)(yaml@2.9.0))(typescript@5.9.3)(vuepress@2.0.0-rc.31(@vue/compiler-sfc@3.5.43)(@vuepress/bundler-vite@2.0.0-rc.31(@types/node@26.6.2)(@vue/compiler-sfc@3.5.43)(esbuild@0.28.1)(rollup@4.62.3)(typescript@5.9.3)(yaml@2.9.0))(esbuild@0.28.1)(rolldown@1.2.9)(rollup@4.62.3)(typescript@5.9.3)(vite@8.3.0(@types/node@26.6.2)(esbuild@0.28.1)(yaml@2.9.0))(vue@3.5.40(typescript@5.9.3)))
@@ -7110,7 +7110,7 @@ snapshots:
       gray-matter: 4.0.3
       hash-wasm: 4.12.0
       js-yaml: 5.4.2
-      katex: 0.18.7
+      katex: 0.19.1
       local-pkg: 1.2.1
       nanoid: 6.0.1
       p-map: 7.0.8
