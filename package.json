@@ -25,9 +25,16 @@
     "node": "^20.19.0 || >=22.0.0"
   },
   "dependencies": {
-    "@tsparticles/engine": "^4.0.0",
-    "@tsparticles/slim": "^4.0.0",
-    "mermaid": "^12.0.0",
-    "tsparticles": "^4.0.0"
+    "@tsparticles/engine": "^4.6.0",
+    "@tsparticles/slim": "^4.6.0",
+    "mermaid": "^12.3.0",
+    "tsparticles": "^4.6.0"
+  },
+  "pnpm": {
+    "overrides": {
+      "dompurify": "^3.4.17",
+      "lodash-es": "^4.18.1",
+      "katex": "^0.18.2"
+    }
   }
 }
