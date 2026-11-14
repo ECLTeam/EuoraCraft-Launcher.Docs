@@ -1,7 +1,7 @@
 import type { ThemeSidebarMulti } from 'vuepress-theme-plume'
 
 const sidebar: ThemeSidebarMulti = {
-  '/en/guide/': [
+  '/guide/': [
     {
       text: 'Getting Started',
       icon: 'material-symbols:rocket-launch-outline',
@@ -19,7 +19,7 @@ const sidebar: ThemeSidebarMulti = {
       ],
     },
   ],
-  '/en/development/': [
+  '/development/': [
     { text: 'Develop ECL', link: '/en/development/', icon: 'material-symbols:code' },
     {
       text: 'Getting Started',
@@ -31,7 +31,7 @@ const sidebar: ThemeSidebarMulti = {
       ],
     },
   ],
-  '/en/tutorials/': [
+  '/tutorials/': [
     { text: 'Technical Tutorials', link: '/en/tutorials/', icon: 'material-symbols:school-outline' },
     {
       text: 'Minecraft Launcher Fundamentals',

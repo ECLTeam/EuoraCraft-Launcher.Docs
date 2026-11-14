@@ -13,9 +13,23 @@
 import { defineThemeConfig } from "vuepress-theme-plume";
 import navbar from "./navbar";
 import navbarEn from "./navbar.en";
-import collections, { englishCollections } from "./collections";
+import navbarZhTw from "./navbar.zh-tw";
+import navbarJa from "./navbar.ja";
+import navbarRu from "./navbar.ru";
+import navbarDe from "./navbar.de";
+import collections, {
+  englishCollections,
+  zhTwCollections,
+  japaneseCollections,
+  russianCollections,
+  germanCollections,
+} from "./collections";
 import sidebar from "./sidebar";
 import sidebarEn from "./sidebar.en";
+import sidebarZhTw from "./sidebar.zh-tw";
+import sidebarJa from "./sidebar.ja";
+import sidebarRu from "./sidebar.ru";
+import sidebarDe from "./sidebar.de";
 
 // 获取当前年份
 const currentYear = new Date().getFullYear();
@@ -89,6 +103,70 @@ export default defineThemeConfig({
       profile: {
         name: 'ECL Docs',
         description: 'EuoraCraft Launcher documentation and technical tutorials',
+        location: 'China',
+      },
+    },
+    '/zh-tw/': {
+      navbar: navbarZhTw,
+      sidebar: sidebarZhTw,
+      collections: zhTwCollections,
+      footer: {
+        message:
+          `<a href="https://icp.gov.moe/?keyword=20269999" target="_blank">萌ICP備20269999號</a>`,
+        copyright:
+          `Copyright ${yearRange} © ECLTeam. Built with <a target="_blank" href="https://v2.vuepress.vuejs.org/">VuePress</a> and <a target="_blank" href="https://theme-plume.vuejs.press">vuepress-theme-plume</a>.`,
+      },
+      profile: {
+        name: 'ECL 文件',
+        description: 'EuoraCraft Launcher 使用文件、開發文件與技術教學',
+        location: '中國',
+      },
+    },
+    '/ja/': {
+      navbar: navbarJa,
+      sidebar: sidebarJa,
+      collections: japaneseCollections,
+      footer: {
+        message:
+          `<a href="https://icp.gov.moe/?keyword=20269999" target="_blank">萌ICP备20269999号</a>`,
+        copyright:
+          `Copyright ${yearRange} © ECLTeam. Built with <a target="_blank" href="https://v2.vuepress.vuejs.org/">VuePress</a> and <a target="_blank" href="https://theme-plume.vuejs.press">vuepress-theme-plume</a>.`,
+      },
+      profile: {
+        name: 'ECL ドキュメント',
+        description: 'EuoraCraft Launcher の利用ガイド・開発ドキュメント・チュートリアル',
+        location: '中国',
+      },
+    },
+    '/ru/': {
+      navbar: navbarRu,
+      sidebar: sidebarRu,
+      collections: russianCollections,
+      footer: {
+        message:
+          `<a href="https://icp.gov.moe/?keyword=20269999" target="_blank">萌ICP备20269999号</a>`,
+        copyright:
+          `Copyright ${yearRange} © ECLTeam. Built with <a target="_blank" href="https://v2.vuepress.vuejs.org/">VuePress</a> and <a target="_blank" href="https://theme-plume.vuejs.press">vuepress-theme-plume</a>.`,
+      },
+      profile: {
+        name: 'Документация ECL',
+        description: 'Руководство, документация для разработчиков и учебные материалы EuoraCraft Launcher',
+        location: 'Китай',
+      },
+    },
+    '/de/': {
+      navbar: navbarDe,
+      sidebar: sidebarDe,
+      collections: germanCollections,
+      footer: {
+        message:
+          `<a href="https://icp.gov.moe/?keyword=20269999" target="_blank">萌ICP备20269999号</a>`,
+        copyright:
+          `Copyright ${yearRange} © ECLTeam. Built with <a target="_blank" href="https://v2.vuepress.vuejs.org/">VuePress</a> and <a target="_blank" href="https://theme-plume.vuejs.press">vuepress-theme-plume</a>.`,
+      },
+      profile: {
+        name: 'ECL Dokumentation',
+        description: 'Nutzungs- und Entwicklerdokumentation sowie Tutorials für EuoraCraft Launcher',
         location: 'China',
       },
     },

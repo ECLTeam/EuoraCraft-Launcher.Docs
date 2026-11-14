@@ -6,7 +6,9 @@ permalink: /en/guide/user-agreement/
 
 # EuoraCraft Launcher User Agreement
 
-**Last updated: September 21, 2026**
+**Last updated: November 14, 2026**
+
+Other language versions: [简体中文](/guide/policy/user-agreement.md), [繁體中文](/zh-tw/guide/policy/user-agreement.md), [日本語](/ja/guide/policy/user-agreement.md), [Русский](/ru/guide/policy/user-agreement.md), [Deutsch](/de/guide/policy/user-agreement.md)
 
 ## Important notice
 
@@ -19,12 +21,15 @@ Please read this Agreement before using the Software. By downloading, installing
 
 Users under 18, or otherwise without civil capacity appropriate for this use, must use the Software with the consent and guidance of a guardian.
 
+ECL lets you install plugins provided by third-party developers. Plugins are not official releases of ECLTeam; verify that their source is trustworthy before installing, and see Section 6 for the applicable rules.
+
 ## 1. Scope
 
 This Agreement applies to official ECL releases and the local features they provide. It does not replace the terms or privacy policies of:
 
 - Microsoft and Mojang account, authentication, and game services;
-- platforms that provide game files, mods, modpacks, resource packs, or other community resources; and
+- platforms that provide game files, mods, modpacks, resource packs, or other community resources;
+- third-party plugins that you install yourself, and services provided by their authors; or
 - servers, mirrors, multiplayer networks, or other services that you connect to yourself.
 
 When using those services, you are responsible for reading and following their applicable terms, licenses, and rules.
@@ -37,11 +42,13 @@ This Agreement does not limit rights granted by GPL-3.0. When distributing a mod
 
 Official packages, project names, logos, and third-party content in the documentation may be subject to additional rights or licenses. Refer to the copyright and license notices in the relevant files.
 
+Third-party plugins are not covered by this project's GPL-3.0 license; the applicable terms are set by the plugin author.
+
 ## 3. Acceptable use
 
 You are responsible for your use of the Software and its consequences. Do not use the Software for unlawful activities or deliberately interfere with, attack, or damage third-party services, servers, or networks connected by the Software.
 
-When using game, account, community-resource, or multiplayer features, you must also follow the rules of the relevant rightsholders, service providers, and server operators, including the Minecraft End User License Agreement and community-resource licenses.
+When using game, account, or community-resource features, or features related to multiplayer and network access, you must also follow the rules of the relevant rightsholders, service providers, and server operators, including the Minecraft End User License Agreement and community-resource licenses.
 
 ## 4. Local data and third-party services
 
@@ -51,11 +58,15 @@ ECLTeam **does not operate remote servers for collecting, storing, or analyzing 
 
 ECLTeam does not upload this data to ECLTeam servers, build user profiles from it, perform remote analytics with it, or sell, rent, or trade user data.
 
+ECL does not include telemetry, usage statistics, or automatic crash-report uploads. Logs, crash-analysis results, and task records stay on your device, and it is up to you whether to share them.
+
 You can manage or remove local data through Software features, by uninstalling the Software, or by deleting the relevant local application data. Back up any saves, screenshots, configuration, or other files you need before deletion.
 
 ### 4.2 Direct connections to third parties
 
 When you actively sign in with Microsoft/Mojang, download game or community resources, connect to a server, use a mirror, or use another online feature, your device may communicate directly with the relevant third-party service. Network traffic, authentication, and resource downloads needed for those features are governed by the terms and privacy policies between you and that provider.
+
+To check for updates and retrieve release information, ECL requests GitHub's public API directly; installing plugins or downloading resources likewise contacts the plugin source and the resource provider directly. Those requests serve only the corresponding feature and do not carry the local data described in 4.1.
 
 ECLTeam does not receive or retain data from those communications on its servers. The availability, security, content, data handling, and effects of third-party services are the responsibility of their respective providers under their rules.
 
@@ -72,15 +83,32 @@ ECL may help you access game files, mods, modpacks, resource packs, shaders, ser
 
 ECLTeam does not own third-party content and does not guarantee that it will remain available, error-free, safe, or suitable for a particular purpose. Before downloading, installing, distributing, or using it, verify that its source is trustworthy and follow applicable copyright, license, and platform rules.
 
-## 6. Availability and limitation of liability
+## 6. Plugins and extensions
+
+### 6.1 Origin and responsibility
+
+ECL provides the ability to install, enable, and run plugins. Plugins are developed and published by third-party authors; they are not official ECLTeam releases and do not represent ECLTeam's position. The functionality, content, quality, safety, and continued availability of a plugin are the responsibility of its author.
+
+### 6.2 Local resources plugins can access
+
+Once enabled, a plugin runs on your machine under your user account and may call the host interfaces for files, network, accounts, instances, and tasks. ECL does not perform per-interface approval for those calls; the separate process a plugin runs in exists for stability and interface boundaries, and is not an operating-system sandbox — it cannot stop plugin code from directly accessing the files and networks available to your user account.
+
+> [!WARNING]
+> Install only plugins whose source you trust and whose purpose you understand. A plugin's behaviour and its consequences are borne by the plugin author and by you as the person who installed and used it.
+
+### 6.3 Plugin terms and data
+
+Plugins may carry their own licences, privacy policies, and terms of service; read them before use. Data created by plugins is stored in this application's data directory; disabling or uninstalling a plugin does not necessarily delete that data, nor does it necessarily stop host-side tasks the plugin already submitted.
+
+## 7. Availability and limitation of liability
 
 The Software is provided on an "as is" and "as available" basis. Because of devices, operating systems, networks, third-party services, and game versions, ECLTeam does not guarantee that the Software will always be error-free, uninterrupted, compatible with every environment, or suitable for your specific needs.
 
-To the maximum extent permitted by applicable law, ECLTeam is not liable for indirect, incidental, special, or consequential loss arising from the use of, or inability to use, the Software, third-party services, or third-party content. This limitation does not exclude liability that cannot lawfully be excluded or limited.
+To the maximum extent permitted by applicable law, ECLTeam is not liable for indirect, incidental, special, or consequential loss arising from the use of, or inability to use, the Software, third-party services, or third-party content (including third-party plugins). This limitation does not exclude liability that cannot lawfully be excluded or limited.
 
-Back up important files and evaluate the related risks before installing mods, changing game files, updating the launcher, or deleting local data.
+Back up important files and evaluate the related risks before installing plugins or mods, changing game files, updating the launcher, or deleting local data.
 
-## 7. Changes to and termination of this Agreement
+## 8. Changes to and termination of this Agreement
 
 ECLTeam may update this Agreement when necessary and will publish the new last-updated date on this page. Material changes will be highlighted in a reasonable manner.
 
@@ -88,17 +116,17 @@ The updated Agreement takes effect when published or on the date stated in it. I
 
 You may stop using and uninstall the Software at any time. If you seriously violate this Agreement or applicable law, ECLTeam may, where reasonably necessary, stop providing related services or support that it actually operates.
 
-## 8. Governing law and dispute resolution
+## 9. Governing law and dispute resolution
 
 This Agreement is governed by the laws of the People's Republic of China. Disputes arising from this Agreement should first be resolved through friendly consultation. If consultation fails, either party may bring an action before a people's court with jurisdiction.
 
-## 9. Contact
+## 10. Contact
 
 For questions, suggestions, or security reports, submit an Issue in the project repository:
 
-- [ECLteam/EuoraCraft-Launcher](https://github.com/ECLteam/EuoraCraft-Launcher)
+- [ECLTeam/EuoraCraft-Launcher](https://github.com/ECLTeam/EuoraCraft-Launcher)
 
 ---
 
 **ECLTeam**
-**Agreement last updated: September 21, 2026**
+**Agreement last updated: November 14, 2026**

@@ -25,7 +25,27 @@ export default defineUserConfig({
     '/en/': {
       lang: 'en-US',
       title: 'ECL Docs',
-      description: 'EuoraCraft Launcher documentation',
+      description: 'EuoraCraft Launcher documentation, development guides and tutorials',
+    },
+    '/zh-tw/': {
+      lang: 'zh-TW',
+      title: 'ECL 文件',
+      description: 'EuoraCraft Launcher 使用文件、開發文件與技術教學',
+    },
+    '/ja/': {
+      lang: 'ja-JP',
+      title: 'ECL ドキュメント',
+      description: 'EuoraCraft Launcher の利用ガイド・開発ドキュメント・チュートリアル',
+    },
+    '/ru/': {
+      lang: 'ru-RU',
+      title: 'Документация ECL',
+      description: 'Руководство, документация для разработчиков и учебные материалы EuoraCraft Launcher',
+    },
+    '/de/': {
+      lang: 'de-DE',
+      title: 'ECL Dokumentation',
+      description: 'Nutzungs- und Entwicklerdokumentation sowie Tutorials für EuoraCraft Launcher',
     },
   },
 
@@ -54,6 +74,26 @@ export default defineUserConfig({
         selectLanguageName: 'English',
         selectLanguageText: 'Languages',
         selectLanguageAriaLabel: 'Select language',
+      },
+      '/zh-tw/': {
+        selectLanguageName: '繁體中文',
+        selectLanguageText: '選擇語言',
+        selectLanguageAriaLabel: '選擇語言',
+      },
+      '/ja/': {
+        selectLanguageName: '日本語',
+        selectLanguageText: '言語',
+        selectLanguageAriaLabel: '言語を選択',
+      },
+      '/ru/': {
+        selectLanguageName: 'Русский',
+        selectLanguageText: 'Языки',
+        selectLanguageAriaLabel: 'Выбор языка',
+      },
+      '/de/': {
+        selectLanguageName: 'Deutsch',
+        selectLanguageText: 'Sprachen',
+        selectLanguageAriaLabel: 'Sprache wählen',
       },
     },
     /* 添加您的部署域名, 有助�?SEO, 生成 sitemap */
